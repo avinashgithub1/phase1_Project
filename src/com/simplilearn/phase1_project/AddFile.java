@@ -23,7 +23,8 @@ public class AddFile {
 			}else {
 				System.out.println(fileName+" file already exists");
 			}
-			/*System.out.println("Returing to Main Menu");
+			/*This is to go to main menu after add operation is performed
+			 * System.out.println("Returing to Main Menu");
 			OptionOne opt =  new OptionOne();
 			opt.optionOne();*/
 		}	

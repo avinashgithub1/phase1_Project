@@ -5,7 +5,7 @@ import java.io.IOException;
 public class LockerMe {
 		
 	void welcome(){
-		System.out.println("Welcome to LockerMe.com");
+		System.out.println("Welcome to LockersMe.com");
 		System.out.println("Developer Name: V Avinash ");
 		System.out.println("EmailMe@: avinashgoud98765@gmail.com");
 		System.out.println();

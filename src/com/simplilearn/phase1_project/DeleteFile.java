@@ -28,7 +28,8 @@ public class DeleteFile {
 					if (flag == 0) {
 						System.out.println("File Not Found!!");
 						}
-					/*System.out.println("Returning to Main Menu");
+					/*This is to go to main menu after Delete operation is performed
+					 * System.out.println("Returning to Main Menu");
 					OptionOne opt =  new OptionOne();
 					opt.optionOne();*/
 		}

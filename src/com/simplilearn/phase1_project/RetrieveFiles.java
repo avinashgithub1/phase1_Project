@@ -13,8 +13,8 @@ public class RetrieveFiles {
         File[] fileList = folder.listFiles();
        
         Arrays.sort(fileList);
-        System.out.println("Total number of files and their names are listed below: ");
-        System.out.println("\nTotal number of items present in the directory: " + fileList.length );
+        //System.out.println("File names are listed below: ");
+        //System.out.println("\nTotal number of items present in the directory: " + fileList.length );
         System.out.println("");
         if(fileList.length==0){
         	System.out.println("Folder is empty!! Please add files");
@@ -25,7 +25,8 @@ public class RetrieveFiles {
         }
     }
     
-    /*System.out.println("");
+    /*This is to go to main menu after retrieve operation is performed
+     * System.out.println("");
     System.out.println("Please select one of the option to proceed further");
     OptionOne opt =  new OptionOne();
 	opt.optionOne();*/
