@@ -1,6 +1,7 @@
 package com.simplilearn.phase1_project;
 
 import java.io.IOException;
+import java.util.InputMismatchException;
 
 public class LockerMe {
 		
@@ -11,7 +12,7 @@ public class LockerMe {
 		System.out.println();
 		System.out.println();
 	}
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException,InputMismatchException {
 		LockerMe lockerMe = new LockerMe();
 		lockerMe.welcome();
 		OptionOne opt =  new OptionOne();
